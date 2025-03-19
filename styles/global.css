@@ -22,6 +22,12 @@
   --fs-header: 2rem;
   --fs-base: 1rem;
   --fs-md: 0.875rem;
+
+  --px-base: 1rem;
+  --px-lg: 2rem;
+
+  --py-base: 1rem;
+  --py-lg: 2rem;
 }
 
 html {
