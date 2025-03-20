@@ -41,3 +41,11 @@ h1 {
   font: var(--fw-bold) var(--fs-header);
   color: var(--text-color-primary);
 }
+
+@media (width >= 80em) {
+  :root {
+    --px-base: 2rem;
+
+    --py-base: 1.25rem;
+  }
+}
