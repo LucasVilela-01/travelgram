@@ -1,0 +1,29 @@
+#cards {
+  background-color: #FFF;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  & .card {
+    height: 20.5rem;
+    width: 20.5rem;
+    overflow: hidden;
+    border-radius: 0.25rem;
+
+    & img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media (width >= 80em) {
+
+  #cards {
+    gap: 1.5rem;
+
+    & .card {
+      height: 17.875rem;
+      width: 17.875rem;
+    }
+  }
+}
