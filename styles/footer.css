@@ -1,0 +1,21 @@
+footer {
+  background-color: #FFF;
+  font-size: var(--fs-md);
+  flex-direction: column;
+
+
+  & div:nth-child(2) {
+    gap: 1rem;
+  }
+}
+
+@media (width >= 80em) {
+  footer {
+    --py-base: 1.5rem;
+    flex-direction: row;
+
+    & div:nth-child(2) {
+      margin-left: auto;
+    }
+  }
+}

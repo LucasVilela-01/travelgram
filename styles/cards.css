@@ -19,6 +19,7 @@
 @media (width >= 80em) {
 
   #cards {
+    --py-base: 1.5rem;
     gap: 1.5rem;
 
     & .card {

@@ -27,7 +27,7 @@
   --max-width: 360px;
   width: min(var(--max-width), 100% - var(--px-base) * 2);
   margin-inline: auto;
-} 
+}
 
 .flex {
   display: flex;
@@ -50,11 +50,6 @@
 }
 
 @media (width >= 80em) {
-
-  .gap-1 {
-    gap: 2rem;
-  }
-
   .container {
     --max-width: 80rem;
   }
