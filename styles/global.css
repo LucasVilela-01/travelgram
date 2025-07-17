@@ -43,7 +43,7 @@ h1 {
   color: var(--text-color-primary);
 }
 
-.header-page {
+header, #about, .header-page {
   background-color: var(--bg-color-surface);
 }
 

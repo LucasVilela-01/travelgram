@@ -11,11 +11,10 @@ footer {
 
 @media (width >= 80em) {
   footer {
+    max-width: 80rem;
+    margin-inline: auto;
     --py-base: 1.5rem;
     flex-direction: row;
-
-    & div:nth-child(2) {
-      margin-left: auto;
-    }
+    justify-content: space-between;
   }
 }
